@@ -1,0 +1,282 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-family: Arial;
+    background: #FBFBFB;
+
+}
+#layout {
+    width: 1200px;
+    /*height: 100%;*/
+    margin: 0 auto;
+
+
+}
+header{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.block{
+    padding-lef: 30px;
+    padding-right: 30px;
+}
+nav a{
+    margin-right: 30px;
+    color: black;
+    text-decoration: none;
+}
+nav a:hover {
+    color: #FC557C;
+    text-decoration: underline;
+}
+#phone-container{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+#phone-container a {
+    color: black;
+    font-size: 24px;
+    text-decoration: none;
+    margin-right: 30px;
+    font-weight: bold;
+}
+#phone-container button{
+    border: 1px solid #F53F4F;
+    color: #F53F4F;
+    font-size: 18px;
+    padding: 10px 40px;
+    background: white;
+    outline: none;
+    cursor: pointer;
+}
+#popup-container{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #00000050;
+
+
+
+}
+#popup{
+    background: white;
+    width: 250px;
+    height: 350px;
+    text-align: center;
+}
+#author {
+   background: url("img/Dmitry Alekseev.png") no-repeat right 150px bottom ;
+    /*background-position:  ;*/
+    height: 700px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+    /*position: relative;*/
+}
+#name  {
+    /*position: absolute;*/
+    /*top: 150px;*/
+    /*left: 10px;*/
+
+}
+#name h1 {
+    font-size: 65px;
+
+
+}
+#name h3 {
+  color: #626262;
+    font-size: 25px;
+    font-weight: lighter;
+}
+#name button {
+    padding: 20px 50px;
+    font-size: 20px;
+    color: white;
+    background: #FF4E2E;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+#vopros {
+
+    text-align: center;
+    padding: 40px;
+    font-size: 55px;
+}
+.otvet{
+    display: flex;
+    flex-wrap: wrap;
+}
+.otvet div {
+    width:250px ;
+    text-align: center;
+    color:#626262 ;
+    margin: 20px;
+    font-size: 18px;
+}
+#znat-button{
+    text-align: center;
+}
+#znat-button button  {
+    margin: 30px;
+    padding: 20px 30px;
+    font-size: 20px;
+    background: #FF4E2E;
+    border: none;
+    outline: none;
+    color: white;
+    cursor: pointer;
+
+}
+#remember h1 {
+    margin: 70px auto 70px auto;
+    text-align: center;
+    font-size: 55px;
+}
+#remember-links{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+#remember-links div {
+    margin: 10px;
+}
+#remember-links a{
+    text-decoration: none;
+    color:#9898AD;
+}
+#remember-links a p{
+    text-align: center;
+    margin: 20px auto;
+    font-size: 20px;
+}
+#zakaz {
+    text-align: center;
+}
+#zakaz .zakaz-button{
+    border: none;
+    outline: none;
+    padding: 20px 40px;
+    background: #FF4E2E;
+    color: white;
+    font-size: 25px;
+    margin: 50px;
+    cursor: pointer;
+
+}
+#predlojenie{
+    background: #FF4E2E;
+    color: white;
+    padding: 50px 70px;
+
+}
+#predlojenie h1 {
+    font-size: 45px;
+}
+#predlojenie p {
+    font-size: 20px;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-block{
+    width: 350px;
+    margin: 50px;
+}
+.footer-block p {
+    margin-top: 20px;
+    font-size: 30px;
+}
+.footer-block a{
+    text-decoration: none;
+    color: #8993B5;
+}
+.footer-block div {
+    margin-top: 20px;
+}
+#link-social a{
+    margin: auto 10px;
+}
+.footer-block button{
+    font-size: 20px;
+    padding: 20px 30px;
+    border: 1px solid #FF4E2E;
+    outline: none;
+    background:white ;
+    color: #FF4E2E;
+    cursor: pointer;
+
+}
+#author-arman{
+    background: #31293C;
+    color: white;
+    text-align: center;
+  padding: 5px;
+}
+#popup input{
+  margin: 10px auto;
+    /*margin-left: 20px;*/
+    width: 200px;
+    height: 40px;
+    border: 1px solid  #FF4E2E;
+}
+#popup h3{
+   text-align: center;
+}
+/*#call-name, #call-number{*/
+  /*width: 80%;*/
+    /*margin: 10px auto;*/
+/*}*/
+#popup button {
+    width: 200px ;
+    margin-top: 10px ;
+    margin-bottom: 10px;
+    text-align: center;
+    padding: 20px 30px;
+    background: #FF4E2E;
+    color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+
+}
+#popup label {
+    font-size: 15px;
+    color: #909CB5;
+    cursor: pointer;
+}
+#popup label input {
+    height: 15px;
+    width: 15px;
+
+}
+#menu-futer{
+    width: 350px;
+    margin: 50px;
+}
+#menu-futer p{
+    margin-top: 10px;
+
+
+}
+#menu-futer p a{
+    text-decoration: none;
+}
